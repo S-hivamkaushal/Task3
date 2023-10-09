@@ -5,7 +5,16 @@ function modulas(divident,divisor){
     return reminder;
 }
 console.log(modulas(218,5));
-//-----------------------------------------------------
+
+//-------------Task 3 program 2-------------------
+function firstArr(a,b){
+  return function(c,d){
+    return function (e,f){
+       return (a*c*e)+(b*d*f);
+    }
+  }
+}
+console.log("the multiplication are :",firstArr(10,2)(5,0)(2,3));
 
 //-------------Task 3 program 3-------------------
 function fun1(arr) {    
